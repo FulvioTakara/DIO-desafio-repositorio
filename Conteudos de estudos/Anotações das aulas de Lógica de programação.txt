@@ -1,0 +1,35 @@
+Lógica e lógica de programação
+•	Programar não é apenas digitar códigos e sim resolver problemas
+•	Precisamos construir um mapa mental de quais informações vamos precisar e quais habilidades precisamos para concluir um determinado software
+•	Lógica: coerência de raciocínio, de ideias, sequencia coerente, regular e necessária de acontecimentos e coisas. Por exemplo: sabemos que o número 10 é maior que o 9 consequentemente o 9 é menor que o 10, assim temos uma coerência. Para resolver um problema precisamos de uma sequência coerente.
+•	Lógica de programação: significa contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações para solucionar um problema
+•	Metacognição: Pensar como pensamos, ex: preisamos comprar 2 camisetas da qual custa R$50, porém a vendedora disse que comprando a segunda teremos um desconto de 20%(100*20 = 20) totalizando R$80 nas 2 camisas. Ou podemos também fazer 100/80=0,8 -100 =80, podendo desdobrar em diversas outras maneiras.
+•	Abstração: É a habilidade de concentrar nos aspectos essenciais de um contexto qualquer ignorando características menos importantes ou acidentais, um software é construído em partes que todos juntos se tornam o software. Será que a maneira que resolvemos um determinado problema é o mais simples?
+Algoritmos e pseudocódigos
+•	Algoritmo: É uma sequencia de passos para resolver um determinado problema. Todos os programas são uma sequência de passos e instruções, sendo que é muito importante essa sequência de passos para não alterar o resultado
+•	Pseudocódigo: é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples(nativa, ou seja, em português a quem o escreve de forma a ser entendida por qualquer pessoa), muito utilizado para a aprendizagem de programação
+•	Fluxograma: é uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequência lógica e coerente do fluxo de dados. Um tipo de diagrama e pode ser entendido como uma representação esquemática de um processo. Podemos entende-lo, na prática, como a documentação dos passos necessários para a execução de um processo qualquer
+•	Variáveis: Na programação, uma variável é um objeto(uma posição, frequentemente localizada na memória) capaz de reter e representar um valor ou expressão. É um espaço na memória do computador destinado a um dado que é alterado durante a execução do algoritmo. Temos 4 tipos de variáveis: numéricas(números), Caracteres(palavras, letras...), Alfanuméricas(letras e números), ou lógicas(True and False) 
+As variáveis não podem conter espaço em branco, evitar acentuações e deve sempre iniciar com letras e nunca com números 
+•	Constantes: São valores imutáveis e não são alterados durante a vida útil do programa.
+Expressões
+•	Aritméticas: São expressões que utilizam operadores aritméticos e funções aritméticas envolvendo constantes e variáveis. Ex: 
+total = 50+50
+total * 2
+•	Literais: São expressões com constantes e/ou variáveis que tem como resultado valores literais. Iremos utilizar as expressões literais na atribuição de valor para uma variável ou constante, ex:
+Nome =’José Carlos’
+Nome <- ‘Jose´ carlos’
+Media=(nota1+ nota2+ nota3+ nota4)/4
+•	Relacionais: São expressões compostas por outras expressões ou variáveis com operadores relacionais. As expressões relacionais retornam valores lógicos(Verdadeiro ou falso)True and False
+•	Tomadas de decisão: Quando escrevemos programas, geralmente ocorre a necessidade de decidir o que fazer dependendo de alguma condição encontrada durante a execução
+•	Concatenação:  é um termo usado em computação para designar a operação de unir o conteúdo de duas strings(sequência de caracteres, palavras, texto...), agrupamento de duas ou mais células que incluindo fórmulas, textos ou outras informações contida no seu interior, dá origem a um único resultado.
+
+
+Estrutura de repetição
+•	Definição: É uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com a condição ou com um contador.
+•	Linguagem de programação: É uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas(software). Um software pode ser desenvolvido para rodar em um computador, dispositivo móvel ou em qualquer equipamento que permita sua execução, a principal função das linguagens de programação é servir de um meio de comunicação entre computadores e humanos. O alto nível de comunicação é aquela cuja sintaxe se aproxima mais da nossa linguagem e se distanciam mais da linguagem de maquinas. Os de baixo nível é aquela linguagem que se aproxima da máquina e se distancia da linguagem humana.
+•	Linguagem compilada: É aquela que o código fonte, é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processo chamado compilação
+•	Linguagem Interpretadas: É aquela em que o código fonte é executado por um programa de computador chamado interpretador, que em seguida é executado pelo sistema operacional ou processador.
+•	Desvio condicional: irá analisar se ocorre uma certa condição, se ocorrer o programa terá uma ação e se não ocorrer essa condição ele terá outra reação 
+•	Matriz: É uma coleção de variáveis do mesmo tipo, acessíveis com um único nome e armazenamentos contiguamente na memória. A individualização de cada variável de um vetor é feito através do uso de índices.
+•	Vetor: São matrizes de uma só dimensão

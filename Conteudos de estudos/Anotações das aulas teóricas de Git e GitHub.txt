@@ -1,0 +1,40 @@
+Git & GitHub
+•	Git: Criado por Linus Torvalds, é um versionamento de código distribuído, todo software construído é colaborativo que envolve uma equipe em seu desenvolvimento e o Git é um sistema que cria diversas versões do código que suporta pessoas no mundo inteiro fazendo edições simultaneamente
+•	GitHub: Local onde podemos armazenar os códigos do Git, nosso repositório de código
+•	Comandos básicos:
+•	No Windows os comandos são diferentes do Linux e Mac, os comandos também possuem flags(complementos para os comandos)
+1.	Cmd: Digitar este código na barra de pesquisa no menu de iniciar para acessar p Prompt de comando
+2.	Listando diretórios para nos situarmos no sistema operacional: Win = dir, Lin+Mc = ls
+3.	Navegar entre os sistemas operacionais: Win+Lin+Mc = cd / (a barra é um caminho específico, neste caso a base do diretório c:, podemos também colocar o nome de alguma pasta ou documento específico)
+4.	Para retroceder o nível da navegação(retornar uma pasta): Win+Lin+Mc = cd ..
+5.	Limpando o terminal: Win = cls, Lin+Mc = clear ou ctrl+l
+6.	Auto completar, muito utilizado para finalizar a digitação do nome de algum documento ou pasta específica: Win+Lin+Mc =tab
+7.	Criando pastas: Win+Lin+Mc = mkdir nome_da_pasta
+•	Por usar um terminal Linux ou mac no Windows temos que pegar uma permissão para criar um documento: sudo su 	e depois digitar a senha para autorização
+•	O padrão é que se os comandos estão corretos não aparecer nada no terminal, só irá aparecer em caso de erros
+8.	Printando um texto no terminal: Win+Lin+Mc = echo frase-ou-palavra-a-ser-printada
+9.	Criando um arquivo: Win+Lin+Mc = echo conteudo-do-arquivo > nome-do-documento.tipo-do-documento(Ex: echo hello > hello.txt)
+10.	Deletando arquivos, se digitar nome do repositório irá remover apenas arquivos existentes dentro dele: Win = del nome-do-documento(Ex: del hello.txt)
+11.	Deletando repositórios e os arquivos existentes dentro dele: Win = rmdir nome-do-repositorio /S /Q(ex: rmdir estudos /S /Q). Lin+Mc = rm -rf nome-do-diretório/ (ex: rm -rf estudos/)
+•	Instalando Git
+1.	Passo1: site= git-scm.com 
+2.	Passo2: Win = downloads/download for Windows, no Linux ir ao terminal e digitar: sudo add-apt-repository ppa:git-core/ppa -y e depois digitar: sudo apt update e para finalizar: sudo apt install git para poder ver a versão instalada digitar: git --version 
+3.	Passo3: Executar o instalador, escolher o lugar para instalar ticar as opções Git Bash Here e Git GUI Here e seguir a instalação normalmente
+•	Como o Git funciona:
+SHA(Secure Hash Algorithm): Algoritmo de Hash Seguro é um conjunto de funções hash criptográficas projetadas pela NSA(Agencia de Segurança Nacional dos EUA). A encriptação gera conjunto de caracteres identificador de 40 dígitos. É uma forma curta de representar um arquivo, facilitando a identificação de alterações no arquivo. 
+•	Objetos fundamentais
+1.	Blobs: É um objeto onde o Git armazena estes dados(sequência de 40 dígitos).Contém metadados dentro dos blobs que armazena o tamanho, tipo dos arquivos
+2.	Trees: São arvores que possuem metadados que armazenam os Blobs e os nomes dos arquivos. Ou seja, é um objeto que encapsula esse comportamento de diretórios, ele é usado para apontar a outros diretórios que contém arquivos que por consequência aponta paras arquivos também. 
+3.	Commits: É o objeto que irá unir tudo, vai dar um sentido a alterações ocorridas. Ele aponta para uma arvore(tree), a um parente(commit anterior a ele), author(quem editou), mensagem(uma mensagem que explica as alterações ocorridas), timestamp(carimbo de tempo, data, hora da criação). Os commits também possuem sha1, que possuem uma criptação de sua criação identificadora de seus metadados, ou seja, se alterarmos uma blob, se alterar um dado dentro de uma blob de um arquivo, ele vai gerar um sha1 dessa blob, essa blob por sua vez tem uma arvore apontando para ela alterando também seus dados, o commit aponta para essa arvore, que por sua vez pode apontar para outras arvores dentro de outras arvores, qualquer alteração irá refletir no sha1, no blob na tree e no commit essa cadeia irá trazer segurança nas informações. Pelo fato de um commit apontar ao outro criamos uma linha do tempo, sendo uma forma segura de demonstrar que o commit representa exatamente o que você quer dizer com o código deixando claro a interferência de outra pessoa no codigo.
+•	Chaves SSH: É uma forma de conseguir uma conexão segura pré encriptadas em duas maquinas com duas chaves(pública e privada).Para clonar um repositório temos que utilizar o caminho SSH.
+•	Tokens: Uma “senha” de segurança que será solicitado sempre que haver modificações no projeto.
+•	Tracked: São documentos que temos acesso
+1.	Unmodified: Não teve modificações
+2.	Modified: Teve modificação
+3.	Staged: São arquivos que estão sendo preparados para fazer parte de outro agrupamento 
+•	Untracked: São documentos restritos que não temos acesso
+git init: Comando utilizado para iniciar o repositório do git, criando uma pasta oculta e para acessar no terminal digitar: ls -a
+•	git add(Staging area): Comando utilizado para mover arquivos e iniciar o versionamento no git
+•	git commit(Local repository): Comando utilizado para criar um commit
+
+ 
