@@ -1,2 +1,2 @@
-# DIO-desafio-repositorio
- challenge exercise for git and github course
+# Challenge repository for Git and GitHub course
+ ***challenge exercise for git and github course***
